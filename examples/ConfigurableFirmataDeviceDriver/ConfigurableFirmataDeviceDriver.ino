@@ -23,6 +23,10 @@
   See file LICENSE.txt for further informations on licensing terms.
 
   Last updated by Jeff Hoefs: January 23rd, 2016
+
+  This ConfigurableFirmataDeviceDriver.ino has been edited to include the
+  DeviceFirmata feature.  None of the other features are installed.
+  Doug Johnson, June 2016
 */
 
 /*
@@ -148,17 +152,17 @@ const byte mac[] = {0x90, 0xA2, 0xDA, 0x0D, 0x07, 0x02};
  * Arduino Uno or Leonardo.
  *============================================================================*/
 
-#include <DigitalInputFirmata.h>
-DigitalInputFirmata digitalInput;
+//#include <DigitalInputFirmata.h>
+//DigitalInputFirmata digitalInput;
 
-#include <DigitalOutputFirmata.h>
-DigitalOutputFirmata digitalOutput;
+//#include <DigitalOutputFirmata.h>
+//DigitalOutputFirmata digitalOutput;
 
-#include <AnalogInputFirmata.h>
-AnalogInputFirmata analogInput;
+//#include <AnalogInputFirmata.h>
+//AnalogInputFirmata analogInput;
 
-#include <AnalogOutputFirmata.h>
-AnalogOutputFirmata analogOutput;
+//#include <AnalogOutputFirmata.h>
+//AnalogOutputFirmata analogOutput;
 
 //#include <Servo.h>
 //#include <ServoFirmata.h>
