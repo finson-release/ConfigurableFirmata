@@ -32,8 +32,8 @@
  * Query using the REPORT_FIRMWARE message.
  */
 #define FIRMATA_FIRMWARE_MAJOR_VERSION  2 // for non-compatible changes
-#define FIRMATA_FIRMWARE_MINOR_VERSION  8 // for backwards compatible changes
-#define FIRMATA_FIRMWARE_BUGFIX_VERSION 2 // for bugfix releases
+#define FIRMATA_FIRMWARE_MINOR_VERSION  9 // for backwards compatible changes
+#define FIRMATA_FIRMWARE_BUGFIX_VERSION 3 // for bugfix releases
 
 // DEPRECATED as of ConfigurableFirmata v2.8.1.
 // Use FIRMATA_PROTOCOL_[MAJOR|MINOR|BUGFIX]_VERSION instead.
